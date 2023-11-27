@@ -16,11 +16,12 @@ public class SpringBootJenkinsApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("Application Started....");
+		logger.info("Application is integrated with Jenkins..")
 	}
 
 	public static void main(String[] args) {
 		logger.info("Application executed....");
-		logger.info("Application is integrated with Jenkins..");
+		
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
 
