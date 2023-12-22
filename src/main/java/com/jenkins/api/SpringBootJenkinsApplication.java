@@ -16,7 +16,7 @@ public class SpringBootJenkinsApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("Application Started....");
-		logger.info("Application is integrated with Jenkins..")
+		logger.info("Application is integrated with Jenkins..");
 	}
 
 	public static void main(String[] args) {
